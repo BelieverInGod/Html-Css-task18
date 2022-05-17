@@ -1,0 +1,73 @@
+.fire {
+    width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 150px solid orangered;
+    position: absolute;
+    top: -90px;
+    
+}
+
+.top {
+   background: linear-gradient(to right, #8B4513, #D2B48C);   ;
+   width: 30px;
+   height: 400px;
+   position: absolute;
+   top: 240px;
+   left: 105px;
+}
+
+.stick {
+    background: brown;
+    width: 40px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 190px;
+    left: 100px;
+    box-shadow: 1px -10px 20px 20px white;
+}
+
+.match {
+    margin-left: 40%;
+    background: linear-gradient(red, #FFFF00 95%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px;
+    position: relative;
+    margin-top: 100px;
+    padding: 31px 20px;
+    background: linear-gradient(#FF4500 , #FFFF00 95%);
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 20px;
+    position: relative;
+    padding: 40px 20px;
+    margin: 20px auto;
+    clip-path: 
+            polygon(
+                50% 0,
+                180% 100%,
+                -80% 100%);
+    
+}
+
+/* 
+
+ background: linear-gradient(#FF4500 , #FFFF00 95%);
+width: 200px;
+height: 200px;
+border-radius: 50%;
+border: 20px;
+position: relative;
+padding: 40px 20px;
+margin: 20px auto;
+clip-path: 
+        polygon(
+            50% 0,
+            180% 100%,
+            -80% 100%);
+             */
